@@ -1,2 +1,2 @@
-# Curriculariza-o-ACAPRA
+# Curricularização ACAPRA
 Projeto Página Institucional - ACAPRA
