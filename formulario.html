@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulário de Contato</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f8f8f8;
+      position: relative;
+      height: 100vh;
+    }
+
+    .header {
+      background-color: #81C8F8;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+    }
+
+    .menu {
+      display: flex;
+      gap: 10px;
+    }
+
+    .menu a {
+      padding: 10px 15px;
+      border-radius: 20px;
+      background-color: #ffffff;
+      font-weight: bold;
+      text-decoration: none;
+      color: black;
+      display: inline-block;
+      text-align: center;
+    }
+
+    .menu a:hover {
+      background-color: #e0e0e0;
+    }
+
+    .logo {
+      height: 80px;
+    }
+
+    .container {
+      padding: 30px;
+      padding-bottom: 100px; 
+    }
+
+    h2 {
+      font-size: 24px;
+      font-weight: bold;
+      font-style: italic;
+      margin-bottom: 20px;
+    }
+
+    form {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    .form-left,
+    .form-right {
+      flex: 1;
+      min-width: 300px;
+      margin-right: 20px;
+    }
+
+    .form-group {
+      margin-bottom: 15px;
+    }
+
+    label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    input,
+    textarea {
+      width: 100%;
+      padding: 10px;
+      border-radius: 15px;
+      border: 1px solid #ccc;
+      font-size: 14px;
+      resize: none;
+    }
+
+    .footer-botao {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      background-color: #81C8F8;
+      flex-wrap: wrap;
+    }
+
+    .footer-botao .botao-link {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 20px;
+      font-weight: bold;
+      background-color: #ffffff;
+      text-decoration: none;
+      color: black;
+      cursor: pointer;
+      display: inline-block;
+      margin: 5px 0;
+    }
+
+    .footer-botao .botao-link:hover {
+      background-color: #e0e0e0;
+    }
+
+    .footer-botao p {
+      color: white;
+      margin: 0;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="header">
+    <nav class="menu">
+      <a href="pagina-inicial.html">Página Inicial</a>
+      <a href="formas-de-ajudar.html">Formas de Ajudar</a>
+      <a href="faca-uma-adocao.html">Faça uma adoção</a>
+      <a href="noticias.html">Notícias</a>
+    </nav>
+    <img src="Assets/logo.png" alt="Logo ACAPRA" class="logo">
+  </header>
+
+  <div class="container">
+    <h2>Formulário de Contato</h2>
+
+    <form action="#" method="post" id="form-contato">
+      <div class="form-left">
+        <div class="form-group">
+          <label for="nome">Nome Completo:</label>
+          <input type="text" id="nome" name="nome" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+          <label for="telefone">Telefone:</label>
+          <input type="tel" id="telefone" name="telefone" required>
+        </div>
+
+        <div class="form-group">
+          <label for="animal">Qual animal deseja adotar? <span style="font-style: italic; color: gray;">(Nome do animal)</span>:</label>
+          <input type="text" id="animal" name="animal" required>
+        </div>
+      </div>
+
+      <div class="form-right">
+        <div class="form-group">
+          <label for="mensagem">Mensagem: <span style="font-style: italic; color: gray;">(Opcional)</span></label>
+          <textarea id="mensagem" name="mensagem" rows="10"></textarea>
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <footer class="footer-botao">
+    <a href="pagina-anterior.html" class="botao-link">Voltar</a>
+    <a href="faca-uma-adocao.html" class="botao-link">Faça uma adoção</a>
+    <p>ACAPRA Brusque 2025</p>
+  </footer>
+
+</body>
+</html>
+
