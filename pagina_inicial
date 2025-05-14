@@ -109,13 +109,13 @@
       <a href="cachorros.html">Faça uma adoção</a>
       <a href="noticias.html">Notícias</a>
     </nav>
-    <img src="Assets/logo.png" alt="Logo ACAPRA" class="logo">
+    <img src="Assets - página inicial/logo.png" alt="Logo ACAPRA" class="logo">
   </header>
 
 
   <main>
 
-    <img src="Assets/banner.png" alt="Banner da ACAPRA" class="banner">
+    <img src="Assets - página inicial/banner.png" alt="Banner da ACAPRA" class="banner">
 
     <section>
       <h2>Nossa História</h2>
@@ -169,7 +169,7 @@
 
     <section class="estatisticas">
       <h2>Estatísticas da ACAPRA</h2>
-      <img src="Assets/grafico.png" alt="Gráficos estatísticos, não real" />
+      <img src="Assets - página inicial/grafico.png" alt="Gráficos estatísticos, não real" />
     </section>
 
     <section class="noticias">
